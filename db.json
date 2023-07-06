@@ -1,0 +1,13 @@
+{
+  "infants": [
+    {
+      "name": "Piers Morgan",
+      "gender": "Male",
+      "weight": 29,
+      "ageInDays": 89,
+      "dateOfBirth": "2222-12-12",
+      "healthStatus": "malaria",
+      "id": 1
+    }
+  ]
+}
