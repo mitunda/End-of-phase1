@@ -1,0 +1,171 @@
+/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #272424;
+  background:linear-gradient( purple, white, gray)
+}
+
+header {
+  background-color: #787988;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text-container {
+  flex: 1 1 50%;
+  margin-right: 20px;
+}
+
+.search-container,
+.form-container {
+  flex: 1 1 40%;
+  margin-top: 20px;
+}
+
+.search-box,
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.search-button,
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul#searchResults {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #787988;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form#myForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#inputss,
+#inputs {
+  flex-basis: 100%;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social h2 {
+  margin-bottom: 10px;
+}
+
+.social div {
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #695674;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .search-container,
+  .form-container {
+    flex-basis: 100%;
+  }
+}
+.paraLogo {
+  font-weight: bold;
+  font-size: 20px;
+  }
+  #logo {
+    margin-right: 10px;
+    }
