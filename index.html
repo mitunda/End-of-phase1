@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleFootprints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.jpeg" alt="logo" id="logo" height="30px">
+        <p class="paraLogo">LittleFootprints</p>
+        <nav>
+            <ul>
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1 id="welcomeH">Welcome to LittleFootprints</h1>
+        
+        <div class="content-container">
+            <div class="text-container">
+                <p id="para">
+                    Discover the ultimate convenience with our post-natal records site. Access and manage your vital health information from the comfort of your home. Streamline your medical history, track your progress, and share seamlessly with healthcare professionals. Experience peace of mind and take control of your post-natal journey effortlessly.
+                </p>
+            </div>
+            <div class="search-container">
+                <h2>Search Baby</h2>
+                <input type="text" id="searchInput" placeholder="Enter baby name" class="search-box">
+                <button type="button" id="searchButton">Search</button>
+                <ul id="searchResults"></ul>
+            </div>
+            <div class="form-container">
+                <h2>Add New Infant</h2>
+                <form id="addBabyForm">
+                    <div>
+                        <label for="nameInput">Name:</label>
+                        <input type="text" id="nameInput" required>
+                    </div>
+                    <div>
+                        <label for="genderInput">Gender:</label>
+                        <select id="genderInput" required>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="weightInput">Weight (in kg):</label>
+                        <input type="number" step="0.01" id="weightInput" required>
+                    </div>
+                    <div>
+                        <label for="ageInput">Age (in days):</label>
+                        <input type="number" id="ageInput" required>
+                    </div>
+                    <div>
+                        <label for="dobInput">Date of Birth:</label>
+                        <input type="date" id="dobInput" required>
+                    </div>
+                    <div>
+                        <label for="healthInput">Health Status:</label>
+                        <input type="text" id="healthInput" required>
+                    </div>
+                    <button type="submit">Add Baby</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>
+            © 2023 [LittleFootprints]. All rights reserved. Privacy Policy | Terms of Service | Contact Us
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
