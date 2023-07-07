@@ -8,6 +8,15 @@
       "dateOfBirth": "2222-12-12",
       "healthStatus": "malaria",
       "id": 1
+    },
+    {
+      "name": "Abel Mutua",
+      "gender": "Male",
+      "weight": 23,
+      "ageInDays": 23,
+      "dateOfBirth": "2020-12-12",
+      "healthStatus": "sickly",
+      "id": 2
     }
   ]
 }
